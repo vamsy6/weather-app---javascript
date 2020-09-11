@@ -6,6 +6,7 @@
 
 body{
 	background-color: #C2D8E6;
+	overflow-y: hidden;
 }
 .input{
 text-align: center;	
