@@ -23,7 +23,7 @@ input{
 	box-shadow:         10px 10px 26px 0px rgba(50, 50, 50, 0.2);
 }
 
-.button{
+.button {
 	width: 4rem;
 	padding: .2rem .4rem;
 	border-radius: 5px;
@@ -36,11 +36,33 @@ input{
 	transition: .5s;
 	outline: none;
 }
+
+.currentLocation{
+	width: 4rem;
+	padding: .2rem .4rem;
+	border-radius: 5px;
+	border: none;
+	color: #121212;
+	padding: .5rem;
+	background-color: #fff;
+	box-shadow:7px 7px 18px 0px rgba(50, 50, 50, 0.1);
+	margin-left: .5rem;
+	transition: .5s;
+	outline: none;
+}
+
 .button:focus:hover{
 	background-color: dodgerblue;
 	color: aliceblue;
 	
 }
+
+.currentLocation :focus:hover{
+	background-color: dodgerblue;
+	color: aliceblue;
+	
+}
+
 .container{
 	 background-color:#E7E8F3;
 	 height: 100vh;
